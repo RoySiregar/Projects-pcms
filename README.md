@@ -31,6 +31,7 @@ DB_PORT=5432
 DB_USERNAME=postgres
 DB_PASSWORD=ISI_PASSWORD_DATABASE_ANDA
 DB_NAME=db_pcms
+```
 
 
 
@@ -44,14 +45,18 @@ src/project-log.entity.ts: Skema database untuk sistem pelacakan riwayat (Audit 
 ## ⚙️ Cara Menjalankan Proyek
 
 1.Clone & Install:
+```env
 git clone <repository-url>
 cd Projects-pcms
 npm install
+```
 
 
 2.Running Application:
 # development mode
+```env
 npm run start:dev
+```
 
 3.API Access:
 Buka browser dan akses http://localhost:3003/api-docs.
