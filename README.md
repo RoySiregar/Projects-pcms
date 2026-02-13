@@ -36,11 +36,10 @@ DB_NAME=db_pcms
 
 
 ## 📂 Struktur Folder Utama
-src/: Inti logika aplikasi (Modules, Controllers, Services).
 
-src/project-entity.ts: Skema database utama untuk aset proyek.
-
-src/project-log.entity.ts: Skema database untuk sistem pelacakan riwayat (Audit Trail).
+* **src/**: Inti logika aplikasi (Modules, Controllers, Services).
+* **src/project-entity.ts**: Skema database utama untuk aset proyek.
+* **src/project-log.entity.ts**: Skema database untuk sistem pelacakan riwayat (Audit Trail).
 
 ## ⚙️ Cara Menjalankan Proyek
 
@@ -64,12 +63,12 @@ Buka browser dan akses http://localhost:3003/api-docs.
 ## 📊 Contoh Data Simulasi Industri
 Sistem ini telah diuji dengan berbagai skenario proyek nyata untuk industri migas dan marine:
 
-Jacket Fabrication - Struktur pondasi platform lepas pantai.
+* Jacket Fabrication - Struktur pondasi platform lepas pantai.
 
-FPSO Hull Integration - Integrasi kapal produksi minyak lepas pantai.
+* FPSO Hull Integration - Integrasi kapal produksi minyak lepas pantai.
 
-Subsea Piping Installation - Instalasi pipa bawah laut.
+* Subsea Piping Installation - Instalasi pipa bawah laut.
 
-Tanker Hull Refurbishment - Perbaikan dan pemeliharaan kapal tanker.
+* Tanker Hull Refurbishment - Perbaikan dan pemeliharaan kapal tanker.
 
 Developed by Roy Siregar - Computer Science Graduate | Full Stack
