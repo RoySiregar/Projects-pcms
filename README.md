@@ -3,7 +3,7 @@
 Sistem backend terintegrasi yang dirancang khusus untuk memantau progres fabrikasi proyek industri offshore dan marine secara real-time. Proyek ini dikembangkan menggunakan arsitektur modular NestJS dengan fokus pada transparansi data dan integritas laporan melalui fitur Audit Trail.
 
 ## 📸 API Documentation Screenshot
-![Swagger UI Documentation](screenshot.PNG)
+![Swagger UI Documentation](screenshot.png)
 *Tampilan dokumentasi API interaktif menggunakan Swagger UI pada port 3003.*
 
 ## 🚀 Fitur Unggulan
